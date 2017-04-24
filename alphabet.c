@@ -5,9 +5,9 @@ void main()
 char a;
 printf("\n enter the caharacter:");
 scanf("%c",&a);
-if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
+if(((a>='a')&&(a<='z'))||((a>='A')&&(a<='Z')))
 {
-printf("\n the character is an alphabet");
+printf("\n The character is an alphabet");
 }
 else
 {

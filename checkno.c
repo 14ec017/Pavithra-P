@@ -8,7 +8,7 @@ printf("\n Enter the no:");
 scanf("%d",&a);
 if(a>0)
  printf("\n Positive number");
- else if
+ else if(a<0)
  printf("\n Negative Number");
  else
  printf("\n The number is zero");

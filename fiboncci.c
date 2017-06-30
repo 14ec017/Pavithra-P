@@ -11,3 +11,7 @@ for(i=1;i<=n;i++)
  c=a+b;
  a=b;
  b=c;
+printf("%d",c);
+}
+ getch();
+}
